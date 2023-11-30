@@ -424,6 +424,370 @@ In summary, identifiers in Java follow specific rules regarding their compositio
 
                                                                       --- END OF WEEK 1 ---
 
+## Week 2: 
+## Day 1:
+## Git: 
+### What is GIT?
+* 	Git is a modern and widely used distributed version control system in the world.
+* 	Developed to manage projects with high speed and efficiency. T
+* 	The version control system allows us to monitor and work together with our team members at the same workspace.
+*	Git is an open-source distributed version control system
+* It is developed to co-ordinate the work among the developers. 
+*	The version control allows us to track and work together with our team members at the same workspace.
+*	Git is foundation of many services like GitHub and GitLab, but we can use Git without using any other Git services. Git can be used privately and publicly.
+
+### GIT VERSION CONTROL:
+*	A version control system is a software that tracks changes to a file or set of files over time so that you can recall specific versions later.
+*	It also allows you to work together with other programmers or developers. 
+*	The version control system is a collection of software tools that help a team to manage changes in a source code.
+*	It uses a special kind of database to keep track of every modification to the code.
+*	There are several git hosting services (remote repository) in the market. Some are free and some are commercial. These include GitHub, Bitbucket and Gitlab
+
+### BENEFITS OF GIT:
+*	A version control application allows us to keep track of all the changes that we make in the files of our project(s). 
+*	Every time we make changes in files of an existing project, we can push those changes to a repository.
+*	Other developers are allowed to pull your changes from the repository and continue to work with the updates that you added to the project files.
+Main benefits of GIT include the following
+*	Saves time-every commands takes seconds to execute compared to login in on Github and navigating  its features
+*	Supports offline working-one can work locally if they have connectivity issues
+*	Undo mistakes
+*	Track changes=make use of Log, Status to keep track of any changes that have been applied
+
+## Day 2:
+## Git Tools and Packages: 
+### Git Tools:
+•	Git comes with some tools like Git Bash, Git GUI to provide the interface between machine and user. It supports inbuilt as well as third-party tools.
+•	Git comes with built-in GUI tools like git bash, git-gui, and gitk for committing and browsing. It also supports several third-party tools for users looking for platform-specific experience.
+
+### Git Package Tools: 
+•	Git provides powerful functionality tools such as commands, command line, Git GUI
+•	Git Bash is a command-line interface (CLI) application designed for the Windows operating system. It serves as a command-line interface for Git, a distributed version control system widely used for source code management and collaboration in software development.
+
+### Git Bash:
+•	Git Command Line for Windows: Git Bash is specifically tailored for the Windows environment. It allows users to interact with Git repositories using a command-line interface, similar to the way Git is used on Linux and macOS systems.
+•	Emulation Layer: Git Bash provides an emulation layer that simulates the experience of using Git on a Unix-like system within the Windows environment. This is achieved by incorporating the Bash (Bourne Again Shell) shell, which is a common shell on Unix-like operating systems.
+•	Bash as the Default Shell: Bash, in the context of Git Bash, stands for Bourne Again Shell. It is a standard default shell on Linux and macOS. In a broader sense, a shell is a terminal application that allows users to interact with the operating system through command-line instructions.
+•	Git Package Installer: When you install Git on a Windows operating system using the Git package installer, it includes not only the Git version control system but also the Git Bash tool. This tool combines the Git command-line capabilities with the Bash shell and utilities.
+•	Accessing Git Bash: After installing Git on Windows, you can access Git Bash by right-clicking on a folder in Windows Explorer. This opens a context menu that includes an option to open Git Bash within the selected folder. Once opened, Git Bash provides a command-line interface where you can execute Git commands and Bash commands.
+•	In summary, Git Bash is a convenient tool for Windows users who want to use Git via the command line. It brings the Git experience to the Windows environment by incorporating the Bash shell and utilities, allowing users to work with Git repositories in a familiar and powerful command-line interface.
+
+### Git Bash Command: 
+•	Git Bash Commands refer to the additional shell commands that come bundled with Git Bash, a command-line interface for Git on Windows. These commands are stored in the /usr/bin directory within the Git Bash emulation. Git Bash aims to provide a robust shell experience on Windows by incorporating a set of essential shell commands commonly found on Unix-like systems.
+
+### Shell Commands: 
+•	Location: The additional commands are stored in the /usr/bin directory. This directory contains executable files for various shell commands that enhance the functionality of Git Bash.
+•	Examples of Commands:
+•	ssh: Used for securely connecting to remote servers or systems.
+•	scp: Stands for "secure copy." It is used for secure file copying between a local host and a remote host.
+•	cat: Used to concatenate and display the content of files.
+•	find: A command-line utility for searching files and directories.
+
+### Essential Git Commands: 
+•	Git Bash includes the full set of Git core commands, allowing users to interact with Git repositories seamlessly. These commands are fundamental to version control using Git. Some examples include:
+•	git clone: Used to clone a repository into a new directory.
+•	git commit: Commits changes to the repository with a descriptive message.
+•	git checkout: Switches between branches or restores working tree files.
+•	git push: Pushes local changes to a remote repository.
+•	Using Git Bash Commands, users can harness the power of both the Git command line and additional shell commands on a Windows system. This provides a flexible and comprehensive environment for working with Git repositories and performing various shell-related tasks. The inclusion of a GUI option further enhances the user experience, catering to users who prefer a visual interface for their version control workflows.
+
+### Git GUI:
+•	Git GUI, or Git Graphical User Interface, is a visual tool that provides an alternative to using the Git command line (Git Bash) for interacting with Git repositories. It offers a graphical representation of Git commands and includes visual diff tools for comparing changes. Git GUI is particularly helpful for users who prefer a visual interface or find it more convenient than using the command line for certain tasks.
+•	In addition to the command-line interface provided by Git Bash, Git also comes with a graphical user interface (GUI). The Git GUI is a visual tool that allows users to perform Git operations using a graphical interface rather than the command line.
+•	The Git GUI provides a more user-friendly way to manage repositories, visualize changes, and perform version control tasks.
+•	Graphical Representation: Git GUI offers a visual representation of Git commands and operations. 
+•	This includes a graphical history of commits, branches, and other aspects of the repository. This visual representation can make it easier for users to understand the structure and history of a Git project.
+•	Visual Diff Tools: Git GUI includes visual diff tools that allow users to compare changes between different versions of files. This can be useful for reviewing changes before committing them, resolving conflicts, or understanding the differences between branches.
+
+### Accessing the GUI:
+•	Right-Click in Windows Explorer: One of the convenient ways to access Git GUI is by right-clicking on a folder or location in Windows Explorer. This opens a context menu that includes an option to open Git GUI for the selected location. This allows users to navigate to a specific repository and launch the graphical interface with ease.
+•	Command Line: Users can also access Git GUI through the command line by typing the following command: git gui
+•	Executing this command launches the Git GUI application, providing a visual interface for Git operations.
+•	User-Friendly Interface: Git GUI is designed to be user-friendly, especially for those who may not be comfortable with the command-line interface. It allows users to perform common Git operations with a point-and-click approach, reducing the need for manual command entry.
+•	Parallel to Command Line: While Git GUI provides a graphical interface, it doesn't replace the Git command line; rather, it works in parallel with it. Users can choose the interface that suits their preferences and the specific requirements of their tasks.
+•	In summary, Git GUI is a valuable tool for users who prefer a visual representation of Git operations and a point-and-click interface. It complements Git Bash by offering an alternative way to interact with Git repositories, making version control more accessible to a wider range of users.
+
+### GitK:
+•	gitk is a graphical history viewer tool for Git, providing a visual representation of a project's history and allowing users to explore changes and commits. It serves as a robust graphical user interface (GUI) that builds on top of Git's log and grep commands, making it easier for users to navigate and understand the history of a Git repository.
+•	Graphical History Viewer:
+•	gitk is designed to be a graphical tool that allows users to visually explore the history of a Git repository. It provides a graphical representation of commits, branches, and other Git-related information.
+•	Built on Git Commands:
+•	Internally, gitk relies on Git commands such as git log and git grep to gather information about the repository's history. It consolidates and presents this information in a graphical format.
+
+### Command-Line Innovation: 
+•	Users can invoke gitk from the command line by navigating to the root directory of a Git repository and typing the following command: $ gitk [git log options]
+•	The optional [git log options] allow users to customize the information displayed in the history view.
+
+### Finding Past-Events: 
+•	gitk is particularly useful for finding specific events or changes that occurred in the past. Users can navigate through the graphical interface to inspect commits, view commit messages, and understand the evolution of the project over time.
+
+### Visualizing Project History: 
+•	The tool is instrumental in visualizing the project's history, making it easier to understand the relationships between different commits, branches, and merges. This visual representation can be more intuitive than examining the same information in a text-based format.
+
+### Interactive Interface: 
+•	gitk provides an interactive interface where users can click on individual commits to view details, explore branches, and navigate through the project's timeline. This makes it easier to comprehend complex branching and merging scenarios.
+•	In summary, gitk is a powerful graphical history viewer tool that enhances the Git experience by providing a visual interface for exploring the history of a Git repository. Whether you need to review past changes, understand branching patterns, or investigate commit details, gitk offers a convenient and user-friendly way to interact with the historical data in your Git projects.
+
+## Git Terminologies: 
+
+### Branch: 
+•	Definition: A branch is a version of the repository that diverges from the main working project. It allows for parallel development and experimentation.
+•	Operations: Branches can be renamed, listed, deleted, and more.
+
+
+### Checkout: 
+•	Definition: The act of switching between different versions of a target entity, typically used for switching between branches.
+•	Command: git checkout is used to switch between branches in a repository.
+
+### Cherry-Picking:
+•	Definition: Applying a specific commit from one branch to another, useful for selectively incorporating changes. In case you made a mistake and committed a change into the wrong branch, but do not want to merge the whole branch
+•	Use Case: Useful for reverting a commit from one branch and applying it to another.
+
+### Clone:
+•	Definition: Creating a local copy of a target repository.
+•	Command: git clone is used to clone a repository, creating a local copy from a specified URL.
+
+### Fetch: 
+•	Definition: Fetches branches and tags from other repositories, updating remote-tracking branches.
+•	Purpose: Keeps the local repository up-to-date with changes from remote repositories.
+
+### HEAD: 
+•	Definition: Staging area between the working directory and repository, used to build up changes for committing.
+•	Purpose: Allows selective staging of changes before committing.
+
+
+### Index: 
+•	Definition: Staging area between the working directory and repository, used to build up changes for committing.
+•	Purpose: Allows selective staging of changes before committing.
+
+### Master:
+•	Definition: Default branch in Git, commonly named "master."
+•	Usage: Initial branch after cloning a repository.
+
+### Merge: 
+•	Definition: Process of combining diverged histories to integrate changes into a single branch.
+•	Command: git merge integrates changes from one branch into another.
+
+### Origin: 
+•	Definition: Reference to the remote repository from which the project was initially cloned.
+•	Usage: Used instead of the original repository URL for referencing.
+
+### 	Pull/Pull Request:
+•	Pull: Receiving data from a remote repository.
+•	Pull Request: Notification to team members that a feature branch is ready for review and merging.
+
+### 	Push:
+•	Definition: Uploading local repository content to a remote repository.
+•	Caution: Careful consideration needed as pushing can overwrite changes.
+
+### Rebase:
+•	Definition: Process of moving or combining commits to a new base commit.
+•	Use Case: Helps visualize and streamline the feature branching workflow.
+
+### Remote:
+•	Definition: Concerned with the remote repository, a shared repository for team collaboration.
+•	Content: Typically contains Git versioning data rather than a file tree.
+
+### Repository:
+•	Definition: Data structure used by version control systems to store metadata and project-related data.
+•	Representation: Considered as the project folder in Git.
+
+ ### Stashing:
+•	Definition: Temporarily saving changes to switch branches without committing incomplete work.
+•	Command: git stash is used to stash changes.
+
+### Tag:
+•	Definition: Marks a specific point in Git history, used for important commit stages.
+•	Types: Light-weighted tag and Annotated tag.
+
+### Upstream and Downstream:
+•	Definition: Reference to the direction of repository integration.
+•	Upstream: Cloned repository (origin). Downstream: Projects integrating your work.
+
+### Git Revert:
+•	Definition: Reverts a specific commit using git revert.
+•	Type: An undo command, but not a traditional undo alternative.
+
+### Git Reset:
+•	Definition: Undoing changes in Git, with forms like Soft, Mixed, and Hard reset.
+•	Command: git reset is used for resetting changes.
+
+### Git Ignore:
+•	Definition: Specifies intentionally untracked files that Git should ignore.
+•	Effect: Does not affect files already tracked by Git.
+
+### Git Diff:
+•	Definition: Multi-use Git command to show changes between commits, branches, commits, and working tree.
+•	Usage: Provides a detailed view of differences in Git data sources.
+
+### Git Cheat Sheet:
+•	Definition: A summary of Git commands for quick reference.
+•	Purpose: A quick guide for users to recall essential Git commands.
+
+
+### Git Flow:
+•	Definition: A branching model for Git, aiding collaboration and scaling development teams.
+•	Components: A collection of Git commands for repository operations.
+
+### Git Squash:
+•	Definition: Squashing multiple commits into one for cleaner commit history.
+•	Use Case: Grouping specific changes before merging.
+
+### Git Rm:
+•	Definition: Removes individual files or a collection of files from the Git index.
+•	Effect: Tracked files are removed from both the working directory and staging index.
+
+### 	Git Fork:
+•	Definition: Creating a rough copy of a repository for testing and debugging without affecting the original project.
+•	Usage: Useful for proposing changes and resolving issues in a separate copy.
+•	Understanding these Git terms is crucial for mastering version control and collaborating effectively on software development projects.
+
+## Day 3: 
+## Git Basic Commands:
+Git commands are all run only on Git command line. These commands execute specific tasks on git.
+
+### git config:
+Purpose: Used to set configuration options for Git at both system and local levels.
+Example: git config --global user.name "Your Name"
+### 	git init:
+Purpose: Initializes a new Git repository, creating the necessary data structures and files.
+Example: git init
+### git clone:
+	Purpose: Creates a copy of a remote repository on your local machine.
+	Example: git clone <repository URL>
+### 	git add:
+	Purpose: Adds changes in the working directory to the staging area in preparation for a commit.
+	Example: git add file.txt
+### 	git commit:
+	Purpose: Records changes in the repository along with a commit message.
+	Example: git commit -m "Your commit message"
+### git status:
+	Purpose: Displays the status of changes as untracked, modified, or staged.
+	Example: git status
+### 	git push:
+	Purpose: Uploads local repository content to a remote repository.
+	Example: git push origin master
+### git pull:
+	Purpose: Fetches changes from a remote repository and merges them into the local repository.
+	Example: git pull origin master
+### git branch:
+	Purpose: Lists, creates, or deletes branches in the repository.
+	Example: git branch (to list branches) or git branch new-feature (to create a new branch named "new-feature")
+
+### 	git merge:
+	Purpose: Combines changes from different branches into the current branch.
+	Example: git merge feature-branch
+### 	git log:
+	Purpose: Displays a log of commits in reverse chronological order.
+	Example: git log
+### git remote:
+	Purpose: Manages connections to remote repositories.
+	Example: git remote -v (to view remote repositories and their URLs)
+	These commands form the core set of actions in Git, enabling version control, collaboration, and tracking changes in a software project. Each command plays a specific role in different stages of the Git workflow, from initialization (git init) to fetching and integrating changes (git pull and git merge). Understanding these commands is essential for efficient and effective use of Git in software development.
+
+## Staging and Commit:
+### Git Add:
+	Purpose: Adds file contents to the Index (Staging Area) for the next commit.
+	Usage: $ git add <file_name> adds a specific file; $ git add -A or $ git add . adds all files.
+	Additional Options:
+	--ignore-removal: Stages only updated and newly created files.
+	-u: Stages only modified and deleted files.
+	Files can also be added by specifying a pattern, e.g., $ git add *.java.
+### Git Commit:
+	Purpose: Records changes in the repository with a commit message.
+	Usage:
+	$ git commit opens a text editor for a commit message.
+	$ git commit -a commits all changes previously added, excluding newly created files.
+	$ git commit -m "Commit message." provides a commit message inline.
+	$ git commit --amend allows editing the last commit's message.
+### 	Git Clone:
+	Purpose: Creates a local copy of a remote repository.
+	Usage: $ git clone <repository_URL>
+	Additional Option:
+	-b <branch_name>: Clones a specific branch.
+### 	Git Fork:
+	Definition: A fork is a copy of a repository, often used for experimentation without affecting the original project.
+	Usage: Done through Git service platforms like GitHub.
+	Steps to Fork on GitHub:
+	Log in to GitHub.
+	Find the repository to fork.
+	Click "Fork" in the upper right.
+	Notes: Forking is commonly used for contributing to open-source projects, allowing users to experiment, make changes, and propose those changes back to the original project through pull requests.
+	These Git commands are fundamental for version control, collaboration, and contributing to projects. git add stages changes, git commit records them, git clone creates local copies, and forking is a method for safe experimentation and contribution on Git service platforms like GitHub.
+
+## Day 4: 
+## Git log and Git Checkout:
+Here you can inspect, and undo changes. 
+### Git Log: 
+	Purpose: Git log is a command-line utility that allows users to review and read the history of a Git repository. It displays a detailed log of commits, including commit hashes, author metadata, commit date, and commit messages.
+	Usage: $ git log provides a comprehensive list of recent commits with their unique identifiers, authors, dates, and commit messages.
+## 	Git Log Stat:
+	Purpose: The --stat option in git log is used to display additional information about modified files, including the number of lines added or removed and a summary line of total changes.
+	Usage: $ git log --stat provides a more detailed view of the modifications made in each commit.
+
+## Git Log P or Patch:
+	Purpose: The --patch option in git log, or simply using $ git log -p, displays the files that have been modified, along with the location of added, removed, and updated lines, providing a detailed view of specific changes made.
+	Usage: $ git log --patch or $ git log -p shows a patch-style output for a more in-depth understanding of modifications.
+
+## Git Checkout: 
+	Purpose: Git checkout is used to switch between different versions of a target entity, such as files, commits, or branches, in a Git repository. It updates the working directory to match the selected version.
+	Operations:
+	Switch Branch: $ git checkout <branchname> switches to the specified branch.
+	Create and Switch Branch: $ git checkout -b <branchname> creates a new branch and switches to it simultaneously.
+	Checkout Remote Branch:
+	Fetch contents: $ git fetch
+	Checkout: $ git checkout <remotebranch>
+	Extra Notes:
+	Be cautious with the git checkout command, as it operates on files, commits, and branches, and there is no undo option.
+	Operations like creating and switching branches (-b option) or checking out remote branches involve combining git branch and git checkout commands.
+	Git log is crucial for navigating and understanding the history of a Git repository, and options like --stat and --patch enhance the information displayed.
+
+### COLLABORATING: 
+Here you can pull, fetch, and push. 
+
+### 	Git Fetch:
+	Purpose: Downloads commits, objects, and refs from another repository. Fetches branches and tags from one or more repositories.
+	Usage: $ git fetch <repository_URL> fetches updates from a specific repository URL.
+	$ git fetch <branch_URL> <branch_name> fetches a specific branch from a repository.
+	$ git fetch --all fetches all branches simultaneously from a remote repository.
+	Notes: Remote-tracking branches are updated to keep track of the remote repository's history.
+### 	Git Pull / Pull Request:
+#### 	Git Pull:
+	Purpose: Receives data from GitHub, fetching and merging changes from the remote server to the working directory.
+	Usage: $ git pull <options> [<repository_URL><refspec>...]
+	<options>: Additional commands like -q (quiet), -v (verbose), -e (edit), etc.
+	<repository_URL>: URL of the remote repository.
+	Notes: Combines fetch and merge, updating local branches with remote-tracking branches.
+### Pull Request:
+	Purpose: Notifies team members of completed features. A developer files a pull request to review and merge the feature branch into the master branch.
+	Process: Developer initiates a pull request via their remote server account, signaling team members to review and merge the code.
+### Git Push:
+	Purpose: Uploads local repository content to a remote repository, transferring commits.
+	Usage: $ git push <options> [<Remote_URL><branch_name><refspec>...]
+	<options>: Various options such as --all, --prune, --mirror, --dry-run, --tags, --delete, -u, etc.
+	<Remote_URL>: URL or name of the remote repository.
+	Options Overview:
+	--all: Pushes all branches.
+	--prune: Removes remote branches without local counterparts.
+	--mirror: Mirrors the repository to the remote, updating or creating local refs.
+	--dry-run: Tests commands without updating the repository.
+	--tags: Pushes all local tags.
+	--delete: Deletes the specified branch.
+	-u: Creates an upstream tracking connection for the first push.
+### Git Force Push:
+	Purpose: Forces push local repository to remote without dealing with conflicts.
+	Usage: $ git push <remote><branch> -f or $ git push <remote><branch> --force
+### Safe Force Push:
+	Uses --force-with-lease to fail if there are unexpected new commits on the remote.
+	Usage: $ git push <remote><branch> --force-with-lease
+	Delete a Remote Branch:
+	Purpose: Deletes a remote branch from the command line.
+	Usage: $ git push origin --delete <branch_name> removes a specific remote branch.
+	These Git collaboration commands facilitate sharing code among developers, including fetching updates, pulling changes, and pushing local commits to remote repositories. Pull requests provide a structured process for code review and integration. Force push and safe force push options are available for updating remote branches, and deleting remote branches can be accomplished using the push command.
+
+
+
+
+                                                 --- END OF WEEK 2 ---
  
 
  
